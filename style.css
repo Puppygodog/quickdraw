@@ -1,0 +1,48 @@
+body{
+    background-color: lightskyblue;
+}
+
+h1{
+    color:rgb(27, 207, 138);
+    background-color: rgb(226, 223, 179);
+}
+
+#show_sketch{
+    float:right;
+}
+
+#score{
+    float:left;
+    margin-left:20px;
+    font-size: 20px;
+}
+
+#timer{
+    float:right;
+    margin-right:20px;
+    font-size: 20px;
+}
+
+#sketchtobedrawn{
+    color:lime;
+    font-weight: bold;
+}
+
+p{
+    padding-top:10px;
+    font-size:25px;
+
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 50px green;}
+    to{box-shadow: 1px 1px 50px blue;}
+}
